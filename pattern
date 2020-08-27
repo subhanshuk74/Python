@@ -1,11 +1,10 @@
 no_of_row = input('enter tne no. of rows: ')
 no_of_row = int(no_of_row)
-i = 0
-n = 1
-for _ in range(i,no_of_row):
-  for _ in range(i,n):
+flag = 1
+for i in range(0,no_of_row):
+  for i in range(0,flag):
     print("* ", end = '')
   print('')
-  if n == no_of_row:
+  if flag == no_of_row:
     break
-  n = n + 1 #increment of flag by 1 till n = no of rows
+  flag = flag + 1 #increment of flag by 1 till flag = no of rows
