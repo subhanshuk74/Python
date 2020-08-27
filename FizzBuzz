@@ -1,12 +1,10 @@
-limit = input('Enter the limit of count : ')
-limit = int(limit)
-n = 1
-i = 0
-for _ in range(i,limit):
-  if n % 3 == 0 and n % 5 == 0:
-    print(n, 'FizzBuzz')
-  elif n % 3 == 0 :
-    print(n, 'Fizz')
-  elif n % 5 == 0:
-    print(n, 'Buzz')
-  n += 1
+number = input('Enter the number : ')
+number = int(number)
+if number % 3 == 0 and number % 5 == 0:
+  print(number, 'FizzBuzz')
+elif number % 3 == 0 :
+  print(number, 'Fizz')
+elif number % 5 == 0:
+  print(number, 'Buzz')
+else:
+  print(number)
