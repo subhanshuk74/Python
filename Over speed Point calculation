@@ -1,0 +1,13 @@
+def point_calculation(a):
+  if a <= 0:
+    return 'Your speed is OK'
+  elif a // 5 <= 12:
+    return 'Your speed is over by {point} points'.format(point = a // 5)
+  return 'License suspended'
+
+speed = input("Your speed : ")
+speed = int(speed)
+over_speed = speed - 70
+
+q = point_calculation(over_speed)
+print(q)
