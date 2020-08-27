@@ -5,6 +5,4 @@ for i in range(0,no_of_row):
   for i in range(0,flag):
     print("* ", end = '')
   print('')
-  if flag == no_of_row:
-    break
   flag = flag + 1 #increment of flag by 1 till flag = no of rows
