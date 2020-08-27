@@ -1,4 +1,4 @@
-no_of_row = input('enter tne no. of rows: ')
+no_of_row = input('enter the no. of rows: ')
 no_of_row = int(no_of_row)
 flag = 1
 for i in range(0,no_of_row):
