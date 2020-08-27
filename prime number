@@ -1,0 +1,14 @@
+def if_prime_no(n):
+  if n == 2:
+    return True
+  for i in range(2,n):
+    if n % i == 0:
+      return False
+  return True
+  
+limit = input('Enter no. : ')
+limit = int(limit)
+for i in range (2,limit + 1):
+  flag = if_prime_no(i) #if number is prime then flag is true otherwise it's false
+  if flag:
+    print(i, end =', ')
