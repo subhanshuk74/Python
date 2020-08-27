@@ -1,0 +1,10 @@
+limit = input('Enter no. :')
+limit = int(limit) + 1
+i=0
+n=0
+for _ in range(i,limit):
+  if n % 2 == 0:
+    print(n,"Even")
+  else:
+    print(n,'Odd')
+  n += 1
