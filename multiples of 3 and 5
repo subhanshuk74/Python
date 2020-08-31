@@ -2,7 +2,7 @@ limit = input('Enter the limit of count : ')
 limit = int(limit)
 n = 0
 i = 0
-for _ in range(i,limit):
+for _ in range(i,limit+1):
   if n % 3 == 0 or n % 5 == 0:
     print(n, end = ', ')
   n += 1
